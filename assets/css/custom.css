@@ -1,0 +1,52 @@
+:root {
+    --color-primary: #F87C56;
+    --color-secondary: #212529;
+    --color-white: #ffff;
+    --color-secondary-white: #F2F2F2;
+    --color-dark: #7F7F8A;
+    --color-dark-light: #BDBABE;
+    --color-secondary-dark: #D9D9D9;
+}
+
+.top-marquee {
+    background-color: var(--color-secondary-white);
+}
+
+.top-marquee .marquee-items {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+
+
+.top-marquee .marquee-items span {
+    background: var(--color-dark);
+    width: 18px;
+    height: 2px;
+    margin: 0 25px;
+    z-index: 10;
+}
+
+/* nav start */
+nav {
+    background-color: var(--color-white);
+}
+
+nav .dropdown .btn,
+nav .dropdown .dropdown-item {
+    padding-left: 0;
+}
+
+nav .dropdown .btn:focus {
+
+    border: none;
+}
+
+
+nav .dropdown .dropdown-menu {
+    border: none;
+}
+
