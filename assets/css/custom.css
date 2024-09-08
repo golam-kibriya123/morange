@@ -436,3 +436,91 @@ header .carousel-inner .carousel-item .carousel-caption {
 .collection-section2 .collection .img img {
     aspect-ratio: 11/12;
 }
+
+/* loop-book section */
+.book-loop-content {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    text-align: start;
+    color: var(--color-white);
+    height: auto;
+    max-width: 300px;
+    z-index: 10;
+
+}
+
+.book-loop-content h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.book-loop-content h2 {
+    font-size: 50px;
+    line-height: 51px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.book-loop-content a {
+    background: transparent;
+    color: var(--color-white);
+    border: 2px solid var(--color-white);
+    font-size: 17px;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: all .4s;
+
+}
+
+.book-loop-content a:hover {
+    background: var(--color-white);
+    color: var(--color-primary);
+
+}
+
+/* winter collection */
+
+.winter-collection .content {
+}
+
+.winter-collection .content h5 {
+    color: #141416;
+    font-size: 15px;
+
+}
+
+.winter-collection .content h2 {
+    color: #141416;
+    font-size: 50px;
+
+}
+
+
+
+.winter-collection .content p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #7F7F8A;
+    margin: 10px 0 30px 0;
+}
+
+.winter-collection .content a {
+    font-size: 17px;
+    line-height: 26px;
+    padding: 15px 20px;
+    background: #141B4D;
+    color: var(--color-white);
+    text-decoration: none;
+    border-radius: 0;
+    border: 1px solid;
+    transition: .4s;
+}
+
+.winter-collection .content a:hover {
+
+    color: #141B4D;
+    background: var(--color-white);
+
+}
