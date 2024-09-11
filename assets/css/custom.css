@@ -482,8 +482,7 @@ header .carousel-inner .carousel-item .carousel-caption {
 
 /* winter collection */
 
-.winter-collection .content {
-}
+.winter-collection .content {}
 
 .winter-collection .content h5 {
     color: #141416;
@@ -523,4 +522,67 @@ header .carousel-inner .carousel-item .carousel-caption {
     color: #141B4D;
     background: var(--color-white);
 
+}
+
+/* service-section */
+
+.service-section {
+    padding: 60px 0;
+}
+
+.service-section .service {
+    padding: 30px;
+}
+
+.service-section .service img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.service-section .service h5 {
+    color: #141416;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.service-section .service span {
+    color: #7F7F8A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+/* insta-feed */
+.insta-feed {
+    position: relative;
+}
+
+.insta-feed a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0;
+    padding: 25px 60px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 500;
+    color: var(--color-primary);
+    background: var(--color-white);
+    border: 2px solid var(--color-white);
+    transition: all .4s;
+}
+
+.insta-feed a:hover {
+    background: var(--color-white);
+    color: var(--color-primary);
+    border-color: #f87c5697;
+
+}
+
+/* footer */
+footer {
+    padding-top: 120px;
 }
